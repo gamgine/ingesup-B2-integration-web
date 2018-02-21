@@ -1,6 +1,7 @@
-body{margin:0}
+body{margin:0;background:grey;}
 nav{position:fixed;width:100%;}
 nav>*{margin:auto}
+nav ul a{color:white;text-decoration:none;padding:0 10px;}
 
 ul{padding:0}
 ul li{display:inline}
@@ -11,8 +12,9 @@ ul li{display:inline}
 .fa-google-plus-g:hover	{background-color:#df5c64}
 .fa-linkedin-in:hover	{background-color:#3e61af}
 
-/* section{min-height:100vh;} */
-section,footer{background:grey;padding:5.5%;text-align:center;}
+#About img,#Services img{margin:1%;width:70%;box-sizing:border-box;margin-top:30px;}
+
+section{min-height:100vh;box-sizing:border-box;padding:5.5%;text-align:center;}
 
 #Home{background:url(/asset/img/background/home.png) center/cover no-repeat;height:500px;}
 #Services{background:#b24a50 url(/asset/img/background/services.png) center/cover no-repeat;}
@@ -21,20 +23,30 @@ section,footer{background:grey;padding:5.5%;text-align:center;}
 	#About>div>div{background-color:rgba(77, 63, 75, 0.5);margin:auto;}
 	#About>div>div img
 	{
-		margin:5%;
-		width:90%;
-		box-sizing:border-box;
 		border:5px solid #a1859e;border-radius:50%;
 		background-color:white;
 	}
 	#About>div>div:hover img{border:5px solid #df5c64;}
+	#About>div>div>h3{color:#c7b6c5;}
+	#About>div>div:hover>h3{color:white;}
+	#About>div>div>a{color:#7b8561;}
+	#About>div>div:hover>a{color:#df5c64;}
 	#About li>a{font-size:10px;background-color:#a1859e}
 	#About>div>div:hover .fa-facebook-f		{background-color:#4f689e}
 	#About>div>div:hover .fa-twitter		{background-color:#55acee}
 	#About>div>div:hover .fa-google-plus-g	{background-color:#df5c64}
 	#About>div>div:hover .fa-linkedin-in	{background-color:#3e61af}
 #Work{background:#81a256 url(/asset/img/background/work.png) center/cover no-repeat;}
-#Contacts{background:#75b4aa url(/asset/img/background/contacts.png) center/cover no-repeat;}
-
-footer{background-color:#68a097;padding:1px 5.5%}
+	#Work>div>div>p{text-align:start}
+	#Work>div>div>ul{text-align:end}
+	#Work>div>div>ul li a{text-decoration:none;color:white;margin: auto 10px;}
+	#Work article{margin-bottom:1em;}
+	#Work img{width:100%}
+	#Work h3{margin:0;margin-top:-5px;padding:.5em;height:1em;background:#eeeeee}
+#Contacts{min-height:90vh;background:#75b4aa url(/asset/img/background/contacts.png) center/cover no-repeat;}
+	#Contacts form>*{margin:1% 0;background-color:#68a097;border:none;box-shadow:unset;}
+	#Contacts form>*:focus{background-color:#f6f6f6}
+	#Contacts input{width:49%;}
+	#Contacts input[type=submit]{background-color:#df5c64;}
+footer{height:10vh;background-color:#68a097;padding:1px 5.5%;text-align:center;}
 footer li a{background-color:#82c7bc;}
