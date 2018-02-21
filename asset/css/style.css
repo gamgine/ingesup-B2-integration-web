@@ -1,10 +1,16 @@
 body{margin:0}
 nav{position:fixed;}
 nav ul li,nav>*{display:inline}
-section{min-height:100vh;background:grey}
 
-#Home
+/* section{min-height:100vh;background:grey} */
+section{background:grey;padding:5.5%;text-align:center;}
+
+#Home{}
 #Services{background:#b24a50 url(/asset/img/background/services.png) no-repeat;}
 #About{background:#665464 url(/asset/img/background/about.png) no-repeat;}
 #Work{background:#81a256 url(/asset/img/background/work.png) no-repeat;}
 #Contacts{background:#75b4aa url(/asset/img/background/contacts.png) no-repeat;}
+
+footer{background-color:#68a097;}
+footer ul li{display:inline}
+footer ul li{color:white;}
