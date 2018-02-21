@@ -1,15 +1,17 @@
 body{margin:0}
-nav{position:fixed;}
+nav{position:fixed;width:100%;}
+nav>*{margin:auto}
+nav ul{padding:0}
 nav ul li,nav>*{display:inline}
 
 /* section{min-height:100vh;background:grey} */
 section{background:grey;padding:5.5%;text-align:center;}
 
-#Home{}
-#Services{background:#b24a50 url(/asset/img/background/services.png) no-repeat;}
-#About{background:#665464 url(/asset/img/background/about.png) no-repeat;}
-#Work{background:#81a256 url(/asset/img/background/work.png) no-repeat;}
-#Contacts{background:#75b4aa url(/asset/img/background/contacts.png) no-repeat;}
+#Home{background:url(/asset/img/background/home.png) center/cover no-repeat;height:500px;}
+#Services{background:#b24a50 url(/asset/img/background/services.png) center/cover no-repeat;}
+#About{background:#665464 url(/asset/img/background/about.png) center/cover no-repeat;}
+#Work{background:#81a256 url(/asset/img/background/work.png) center/cover no-repeat;}
+#Contacts{background:#75b4aa url(/asset/img/background/contacts.png) center/cover no-repeat;}
 
 footer{background-color:#68a097;}
 footer ul li{display:inline}
