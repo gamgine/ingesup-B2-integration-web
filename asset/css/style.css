@@ -1,18 +1,40 @@
 body{margin:0}
 nav{position:fixed;width:100%;}
 nav>*{margin:auto}
-nav ul{padding:0}
-nav ul li,nav>*{display:inline}
 
-/* section{min-height:100vh;background:grey} */
-section{background:grey;padding:5.5%;text-align:center;}
+ul{padding:0}
+ul li{display:inline}
+
+.fab{color:white;width:1em;padding:.5em;border-radius:50%;text-decoration:none}
+.fa-facebook-f:hover	{background-color:#4f689e}
+.fa-twitter:hover		{background-color:#55acee}
+.fa-google-plus-g:hover	{background-color:#df5c64}
+.fa-linkedin-in:hover	{background-color:#3e61af}
+
+/* section{min-height:100vh;} */
+section,footer{background:grey;padding:5.5%;text-align:center;}
 
 #Home{background:url(/asset/img/background/home.png) center/cover no-repeat;height:500px;}
 #Services{background:#b24a50 url(/asset/img/background/services.png) center/cover no-repeat;}
+	#Services article{background-color:rgba(200, 83, 90, 0.8);margin:auto;}
 #About{background:#665464 url(/asset/img/background/about.png) center/cover no-repeat;}
+	#About>div>div{background-color:rgba(77, 63, 75, 0.5);margin:auto;}
+	#About>div>div img
+	{
+		margin:5%;
+		width:90%;
+		box-sizing:border-box;
+		border:5px solid #a1859e;border-radius:50%;
+		background-color:white;
+	}
+	#About>div>div:hover img{border:5px solid #df5c64;}
+	#About li>a{font-size:10px;background-color:#a1859e}
+	#About>div>div:hover .fa-facebook-f		{background-color:#4f689e}
+	#About>div>div:hover .fa-twitter		{background-color:#55acee}
+	#About>div>div:hover .fa-google-plus-g	{background-color:#df5c64}
+	#About>div>div:hover .fa-linkedin-in	{background-color:#3e61af}
 #Work{background:#81a256 url(/asset/img/background/work.png) center/cover no-repeat;}
 #Contacts{background:#75b4aa url(/asset/img/background/contacts.png) center/cover no-repeat;}
 
-footer{background-color:#68a097;}
-footer ul li{display:inline}
-footer ul li{color:white;}
+footer{background-color:#68a097;padding:1px 5.5%}
+footer li a{background-color:#82c7bc;}
