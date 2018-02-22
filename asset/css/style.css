@@ -21,8 +21,11 @@ section{min-height:100vh;box-sizing:border-box;padding:5.5%;text-align:center;}
 
 
 #Home{background:url(/asset/img/background/home.png) center/cover no-repeat;height:500px;}
-#Home p{position:absolute;top:45%;margin:auto;width:40%;left:29%;background:rgba(255,255,255,.5);color:#82c7bc;padding:1% 2%;font-size:2em;text-align:end;line-height:1em;}
-#Home p span+span{font-size:2.5em;margin-top:-.2em;line-height:initial;font-weight:bold;text-align:start;}
+	#Home p{position:absolute;top:42%;margin:auto;width:40.5%;left:29%;background:rgba(255,255,255,.5);color:#82c7bc;padding:1%;font-size:2em;text-align:end;line-height:1em;}
+	#Home p span+span{font-size:2.5em;margin-top:-.2em;line-height:initial;font-weight:bold;text-align:start;}
+	
+	#Home img{position:absolute;height:10%;top:45%;cursor: pointer;}
+	#Home img:first-of-type{left:10px;}#Home img:last-of-type{right:10px;}
 #Services{background:#b24a50 url(/asset/img/background/services.png) center/cover no-repeat;}
 	#Services article{background-color:rgba(200, 83, 90, 0.8);margin:auto;}
 #About{background:#665464 url(/asset/img/background/about.png) center/cover no-repeat;}
