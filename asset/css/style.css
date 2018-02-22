@@ -54,6 +54,7 @@ section{min-height:100vh;box-sizing:border-box;padding:5.5%;text-align:center;}
 	#Work img{width:100%}
 	#Work h3{margin:0;margin-top:-5px;padding:.5em;height:1em;background:#eeeeee}
 #Contacts{min-height:90vh;background:#75b4aa url(/asset/img/background/contacts.png) center/cover no-repeat;}
+	#Contacts li{display:block;}
 	#Contacts form>*{margin:1% 0;background-color:#68a097;border:none;box-shadow:unset;}
 	#Contacts form>*:focus{background-color:#f6f6f6}
 	#Contacts input{width:49%;}
