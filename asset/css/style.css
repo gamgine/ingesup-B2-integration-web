@@ -63,7 +63,7 @@ section{min-height:100vh;box-sizing:border-box;padding:5.5%;text-align:center;}
 	#Work>div>div>ul li a{text-decoration:none;color:white;margin: auto 10px;}
 	#Work article{margin-bottom:1em;position:relative;}
 	#Work article>div/*arrow*/
-	{
+	{ 
 		width: 0px;
 		height: 0px;
 		position: absolute;
@@ -78,7 +78,7 @@ section{min-height:100vh;box-sizing:border-box;padding:5.5%;text-align:center;}
 	#Contacts li{display:block;}
 	#Contacts form>*{margin:1% 0;background-color:#68a097;border:none;box-shadow:unset;}
 	#Contacts form>*:focus{background-color:#f6f6f6}
-	#Contacts input{width:49%;}
+	#Contacts input{width:49%;}#Contacts input:first-of-type,#Contacts input:nth-child(2){display:inline;}
 	#Contacts input[type=submit]{background-color:#df5c64;}
 footer{height:10vh;background-color:#68a097;padding:1px 5.5%;text-align:center;}
 footer li a{background-color:#82c7bc;}
