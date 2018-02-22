@@ -1,6 +1,6 @@
 body{margin:0;background:grey;font-family:Lato;color:white;scroll-behavior: smooth;}
 nav{position:fixed;width:100%;z-index:10;}
-nav>*{margin:0 auto}
+nav>*{margin:0 auto;text-align:center;}
 nav ul li{box-sizing:border-box;height:100%;padding-top:.7em;border-radius:0 0 5px 5px;}
 nav ul li:hover{background-color:#82c7bc;}
 nav ul li:hover:nth-child(2){background-color:#df5c64;}
