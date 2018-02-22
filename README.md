@@ -10,5 +10,9 @@ ingesup B2 projet integration-web
 > **[master](../../tree/master)**     
 # :calling: Publication
 >pct 103 **[inteweb.gamgine.com](inteweb.gamgine.com)**
+## :package: dependency
+- Pure css
+- JavaScript
+- google maps api
 # License
 [Mozilla Public License 2.0](LICENSE)
