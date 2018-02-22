@@ -40,7 +40,17 @@ section{min-height:100vh;box-sizing:border-box;padding:5.5%;text-align:center;}
 	#Work>div>div>p{text-align:start}
 	#Work>div>div>ul{text-align:end}
 	#Work>div>div>ul li a{text-decoration:none;color:white;margin: auto 10px;}
-	#Work article{margin-bottom:1em;}
+	#Work article{margin-bottom:1em;position:relative;}
+	#Work article>div/*arrow*/
+	{
+		width: 0px;
+		height: 0px;
+		position: absolute;
+		bottom: 2.3em;left: 50%;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-bottom: 10px solid #eeeeee;
+	}
 	#Work img{width:100%}
 	#Work h3{margin:0;margin-top:-5px;padding:.5em;height:1em;background:#eeeeee}
 #Contacts{min-height:90vh;background:#75b4aa url(/asset/img/background/contacts.png) center/cover no-repeat;}
