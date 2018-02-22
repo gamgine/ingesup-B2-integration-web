@@ -1,4 +1,4 @@
-body{margin:0;background:grey;}
+body{margin:0;background:grey;font-family:Lato;color:white;}
 nav{position:fixed;width:100%;z-index:10;}
 nav>*{margin:0 auto}
 nav ul li{box-sizing:border-box;height:100%;padding-top:.7em;border-radius:0 0 5px 5px;}
@@ -25,7 +25,7 @@ section{min-height:100vh;box-sizing:border-box;padding:5.5%;text-align:center;}
 #Services{background:#b24a50 url(/asset/img/background/services.png) center/cover no-repeat;}
 	#Services article{background-color:rgba(200, 83, 90, 0.8);margin:auto;}
 #About{background:#665464 url(/asset/img/background/about.png) center/cover no-repeat;}
-	#About>h3{background-color: #a1ca6c;margin-bottom:0;border-radius:5px;font-size:1.5em;padding:.5em 0;}
+	#About>h3{background-color: #a1ca6c;margin-bottom:0;border-radius:5px;font-size:1.5em;padding:.5em 0;font-family:Lato;font-weight:normal;}
 	#About h3+div /*arrow*/
 	{
 		width: 0px;height: 0px;
@@ -54,6 +54,8 @@ section{min-height:100vh;box-sizing:border-box;padding:5.5%;text-align:center;}
 #Work{background:#81a256 url(/asset/img/background/work.png) center/cover no-repeat;}
 	#Work>div>div>p{text-align:start}
 	#Work>div>div>ul{text-align:end}
+	#Work>div>div>ul li{border-radius:5px;padding:2px;}
+	#Work>div>div>ul li:hover{background:#f5c149;}
 	#Work>div>div>ul li a{text-decoration:none;color:white;margin: auto 10px;}
 	#Work article{margin-bottom:1em;position:relative;}
 	#Work article>div/*arrow*/
@@ -67,7 +69,7 @@ section{min-height:100vh;box-sizing:border-box;padding:5.5%;text-align:center;}
 		border-bottom: 10px solid #eeeeee;
 	}
 	#Work img{width:100%}
-	#Work h3{margin:0;margin-top:-5px;padding:.5em;height:1em;background:#eeeeee}
+	#Work h3{margin:0;margin-top:-5px;padding:.5em;height:1em;background:#eeeeee;color:#727272;}
 #Contacts{min-height:90vh;background:#75b4aa url(/asset/img/background/contacts.png) center/cover no-repeat;}
 	#Contacts li{display:block;}
 	#Contacts form>*{margin:1% 0;background-color:#68a097;border:none;box-shadow:unset;}
