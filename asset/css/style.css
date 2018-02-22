@@ -8,20 +8,21 @@ nav ul li:hover:nth-child(3){background-color:#91778e;}
 nav ul li:hover:nth-child(4){background-color:#a1ca6c;}
 nav ul a{color:white;text-decoration:none;padding:0 10px;}
 
+
 ul{padding:0}
 ul li{display:inline-block}
-
 .fab{color:white;width:1em;padding:.5em;border-radius:50%;text-decoration:none}
 .fa-facebook-f:hover	{background-color:#4f689e}
 .fa-twitter:hover		{background-color:#55acee}
 .fa-google-plus-g:hover	{background-color:#df5c64}
 .fa-linkedin-in:hover	{background-color:#3e61af}
-
 #About img,#Services img{margin:1%;width:70%;box-sizing:border-box;margin-top:30px;}
-
 section{min-height:100vh;box-sizing:border-box;padding:5.5%;text-align:center;}
 
+
 #Home{background:url(/asset/img/background/home.png) center/cover no-repeat;height:500px;}
+#Home p{position:absolute;top:45%;margin:auto;width:40%;left:29%;background:rgba(255,255,255,.5);color:#82c7bc;padding:1% 2%;font-size:2em;text-align:end;line-height:1em;}
+#Home p span+span{font-size:2.5em;margin-top:-.2em;line-height:initial;font-weight:bold;text-align:start;}
 #Services{background:#b24a50 url(/asset/img/background/services.png) center/cover no-repeat;}
 	#Services article{background-color:rgba(200, 83, 90, 0.8);margin:auto;}
 #About{background:#665464 url(/asset/img/background/about.png) center/cover no-repeat;}
