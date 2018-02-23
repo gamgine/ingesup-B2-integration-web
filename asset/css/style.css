@@ -73,6 +73,8 @@ section{min-height:100vh;box-sizing:border-box;padding:5.5%;text-align:center;}
 		border-bottom: 10px solid #eeeeee;
 	}
 	#Work img{width:100%}
+	#Work article img:nth-child(2){position:absolute;width:20%;left:40%;top:30%;display:none;}
+	#Work article:hover img:nth-child(2){display:initial;}
 	#Work h3{margin:0;margin-top:-5px;padding:.5em;height:1em;background:#eeeeee;color:#727272;}
 #Contacts{min-height:90vh;background:#75b4aa url(/asset/img/background/contacts.png) center/cover no-repeat;}
 	#Contacts li{display:block;}
