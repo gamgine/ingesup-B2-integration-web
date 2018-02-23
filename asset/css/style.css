@@ -17,7 +17,7 @@ ul li{display:inline-block}
 .fa-google-plus-g:hover	{background-color:#df5c64}
 .fa-linkedin-in:hover	{background-color:#3e61af}
 #About img,#Services img{margin:1%;width:70%;box-sizing:border-box;margin-top:30px;}
-section{min-height:100vh;box-sizing:border-box;padding:5.5%;text-align:center;}
+section{min-height:100vh;box-sizing:border-box;padding:5.5%;text-align:center;scroll-behavior: smooth;}
 
 
 #Home{background:url(/asset/img/background/home.png) center/cover no-repeat;height:500px;}
